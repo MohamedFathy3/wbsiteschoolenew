@@ -1,0 +1,254 @@
+/* styles/profile.css */
+.ed-profile__area {
+  background: #f8f9fa;
+}
+
+.ed-profile__sidebar {
+  background: white;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+
+.ed-profile__user-placeholder {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-size: 48px;
+  color: white;
+  font-weight: bold;
+}
+
+.ed-profile__stats-item {
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.ed-profile__stats-item h3 {
+  font-size: 24px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.ed-profile__stats-item p {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.ed-profile__main {
+  background: white;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+
+.ed-profile__tabs .nav-link {
+  border: none;
+  padding: 12px 20px;
+  color: #666;
+  font-weight: 500;
+  border-radius: 8px;
+  margin-right: 10px;
+  transition: all 0.3s ease;
+}
+
+.ed-profile__tabs .nav-link.active {
+  background: #667eea;
+  color: white;
+}
+
+.ed-profile__tabs .nav-link:hover {
+  background: #f8f9fa;
+}
+
+.ed-profile__card {
+  background: #f8f9fa;
+  border-radius: 12px;
+  border: none;
+}
+
+.ed-profile__card-header {
+  background: transparent;
+  border-bottom: 1px solid #eaeaea;
+  padding: 20px 25px;
+}
+
+.ed-profile__card-body {
+  padding: 25px;
+}
+
+.ed-profile__info-item label {
+  font-weight: 600;
+  color: #555;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.ed-profile__info-item p {
+  margin: 0;
+  color: #333;
+  font-size: 16px;
+}
+
+.ed-profile__code {
+  font-family: 'Courier New', monospace;
+  font-size: 18px;
+  font-weight: bold;
+  color: #667eea;
+}
+
+.ed-empty-state {
+  padding: 60px 20px;
+}
+
+.ed-empty-state__icon {
+  opacity: 0.5;
+}
+
+.ed-empty-state__title {
+  color: #333;
+}
+
+.ed-empty-state__text {
+  color: #666;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.ed-profile__activity-stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.ed-profile__activity-stat {
+  display: flex;
+  align-items: center;
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.ed-profile__activity-stat-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+.ed-profile__activity-stat-content h3 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.ed-profile__activity-stat-content p {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.ed-profile__achievements {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.ed-profile__achievement {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  background: #f8f9fa;
+  border-radius: 10px;
+}
+
+.ed-profile__achievement-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+  font-size: 18px;
+}
+
+.ed-profile__achievement-content h6 {
+  margin: 0 0 5px 0;
+  color: #333;
+}
+
+.ed-profile__achievement-content p {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.ed-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.ed-btn--primary {
+  background: #667eea;
+  color: white;
+}
+
+.ed-btn--primary:hover {
+  background: #5a67d8;
+  color: white;
+}
+
+.ed-btn--secondary {
+  background: #e53e3e;
+  color: white;
+}
+
+.ed-btn--secondary:hover {
+  background: #c53030;
+  color: white;
+}
+
+.ed-btn--outline {
+  background: transparent;
+  border: 2px solid #667eea;
+  color: #667eea;
+}
+
+.ed-btn--outline:hover {
+  background: #667eea;
+  color: white;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
